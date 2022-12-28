@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Практика с html+css 2</title>
+</head>
+
+<body>
+	<form action="#" method="post" enctype="multipart/form-data"> <!-- Тег формы -->
+
+		<div>
+			<p>Имя</p>
+			<input tabindex="1" placeholder="Имя" type="text" name="username" value="" />
+			<!-- Тег ввода, атрибут скрытой подписи, тип "текст. Атрибут "tabindex" определяет порядок перехода между элементом с помощью Tab -->
+		</div>
+		<div>
+			<p>Пароль</p>
+			<input tabindex="2" type="password" name="userpass" value="" /> <!-- Тег ввода, тип "пароль" -->
+		</div>
+		<div>
+			<p>Телефон</p>
+			<input tabindex="3" type="tel" name="userphone" value="" /> <!-- Тег ввода, тип "телефон" -->
+		</div>
+		</div>
+		<div>
+			<p>Выберите пол</p>
+			<input checked tabindex="4" type="radio" name="gender" value="male" />Мужской
+			<!-- Тег ввода, тип с переключением в списке, атрибут "checked" указывает на элемент по умолчанию -->
+		</div>
+		<div>
+			<input tabindex="4" type="radio" name="gender" value="female" />Женский
+		</div>
+		<div>
+			<p>Имущество</p>
+			<div><input checked tabindex="5" type="checkbox" name="bike" value="yes" />Велик</div>
+			<div><input tabindex="6" type="checkbox" name="car" value="yes" />Машина</div>
+			<div><input disabled tabindex="7" type="checkbox" name="house" value="yes" />Дом</div>
+			<!-- Тег ввода, тип элемента с флажком -->
+		</div>
+		<div>
+			<p>Дополнительная информация</p>
+			<textarea tabindex="8" placeholder="введите текст" name="text"></textarea>
+			<!-- Тег области текста, атрибут "серой" подписи  -->
+		</div>
+		<div>
+			<p>Прикрепить фото</p>
+			<input tabindex="9" type="file" name="foto" value="" /> <!-- Тег ввода, тип элемента выбора файла -->
+		</div>
+		<div>
+			<p>Любимый цвет</p>
+			<select tabindex="10" name="color"> <!-- Тег выпадающего списка  -->
+				<option value="red">красный</option> <!-- Тег элемента выпадающего списка  -->
+				<option selected value="yellow">желтый</option>
+				<option value="blue">голубой</option>
+			</select>
+		</div>
+		<br />
+		<div>
+			<button tabindex="11" type="submit">Отправить</button>
+			<button tabindex="12" type="reset">Очистить</button>
+			<!-- Тег "кнопки". Тип "submit" для отправки всей формы, а "reset" - для общего сброса. Атрибут "disabled" запрещает действия с элементоами-->
+		</div>
+	</form>
+</body>
+
+</html>
+
+<!--
+	! qwer
+	? qwer
+	TODO какой-то комментарий
+-->
+
+<!--  -->
