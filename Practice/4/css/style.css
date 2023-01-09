@@ -3,15 +3,12 @@
     margin: 0;
     border: 0;
 }
-
 *,*:before,*:after {
 -moz-box-sizing: border-box;
 -webkit-box-sizing: border-box;
 box-sizing: border-box;
 }
-
 nav,footer,header,aside {display: block;}
-
 html,body {
 height: 100%;
 width: 100%;
@@ -22,57 +19,79 @@ font-size: 14px;
 -moz-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
 }
-
 input,bottom,textarea {font-family: inherit;}
-
 input ::-ms-clear {display: none;}
 button {cursor: pointer;}
 button ::-moz-focus-inner {padding: 0; border: 0;}
 a, a:visited {text-decoration: none;}
 ul li {list-style: none}
 img {vertical-align: top;}
+h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
+/*------*/
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 
- h1,h2,h3,h4,h5,h6 {font-size: inherit; font-weight: 400;}
- /*------*/
- .arial {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
- }
- .fontsize30 {
-    font-size: 30px;
- }
- .italic {
-    font-style: italic;
- }
- .font700 {
-    font-weight: 700;
- }
- .colorred {
-    color: red;
- }
- .textright {
-    text-align: justify;
- }
-.decoration {
-    text-decoration: line-through;
+h1 {
+	font-size: 30px;
+	color: #445161;
+	line-height: 30px;
+}
+h2 {
+	color: #445161;
+	font-size: 25px;
+	line-height: 30px;
+}
+.text {
+	color: #333333;
+	line-height: 25px;
+}
+.bold {
+	color: #333333;
+	font-weight: 700;
+}
+.red {
+	color: #ff0000;
+}
+h3 {
+	font-size: 20px;
+	color: #445161;
+	line-height: 30px;
+}
+.right {
+	color: #333333;
+	text-align: right;
+}
+.upper {
+	text-transform: uppercase;
+color: #333333;
+}
+.cursive {
+	color: #333333;
+font-style: italic;
+}
+.underline {
+	text-decoration: underline;
+color: #333333;
+}
+.center {
+	color: #333333;
+	text-align: center;
+}
+.bigtext {
+	font-size: 24px;
+line-height: 24px;
+color: #333333;
+}
+.linethrough {
+	text-decoration: line-through;
+color: #333333;
+}
+.timesnewroman {
+	color: #333333;
+font-family: "Times New Roman";
 }
 .shadow {
-    text-shadow: 1px 1px 5px #000;
-}
-.UPPERCASE {
-    text-transform: capitalize;
-}
-.indent {
-    text-indent: 50px;
-}
-.lspace {
-    letter-spacing: 5px;
-}
-.wspace {
-    word-spacing: 5px;
-}
-.whspace {
-    white-space: nowrap;
-}
-.lineheight {
-    line-height: 20px;
+	color: #333333;
+	filter: drop-shadow(0.5px 0.866px 0.5px #000000);
 }
